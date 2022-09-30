@@ -1,0 +1,117 @@
+* {
+   border: 0;
+   margin: 0;
+   font-family: Arial, sans-serif;
+   box-sizing: border-box;
+   line-height: 1.5;
+   scroll-behavior: smooth !important;
+}
+h1 {
+   text-align: center;
+   height: 100px;
+   padding-top: 40px;
+   width: 100%;
+}
+#navbar ul {
+   list-style: none;
+   line-height: 1.5rem;
+   margin: 0;
+   padding: 0;
+}
+.nav-link {
+   margin-left: 30px;
+   color: whitesmoke;
+   text-decoration: none;
+}
+#navbar {
+   max-width: 400px;
+   min-width: 250px;
+   width: 30%;
+   height: 100%;
+   position: fixed;
+   top: 0;
+   left: 0;
+   border-right: solid 2px gray;
+   color: whitesmoke;
+   background: midnightblue;
+   overflow-y: scroll;
+   overflow-x: hidden;
+   scroll-behavior: smooth;
+}
+
+#navbar li {
+   font-size: 120%;
+   line-height: 50px;
+   margin: 0;
+   background: linear-gradient(rgb(2, 2, 61), rgb(0, 0, 150), rgb(2, 2, 112));
+}
+#navbar li a {
+   display: inline-block;
+   width: 100%;
+}
+
+#main-doc {
+   position: absolute;
+   left: 30%;
+   top: 0;
+}
+#main-doc h1 {
+   font-size: 300%;
+}
+
+p {
+   text-align: justify;
+   margin: 20px 0;
+}
+code {
+   background: black;
+   color: green;
+   display: block;
+   padding: 20px;
+   border-radius: 5px;
+   margin: 0 20px;
+}
+.main-section {
+   padding: 4% 10%;
+}
+
+.main-section li {
+   margin: 10px 0;
+}
+
+#useful_tip {
+   justify-content: center;
+   flex-wrap: wrap;
+   text-align: center;
+}
+
+#useful_tip a {
+   text-decoration: none;
+}
+
+@media screen and (max-width: 710px){
+    *{
+        font-size: 0.9em;
+    }
+    #navbar {
+        min-width: 30%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+   left: 0;
+   background: midnightblue;
+   overflow-y: scroll;
+   overflow-x: hidden;
+   scroll-behavior: smooth; 
+    }
+    .nav-link {
+   margin-left: 10px;
+   color: whitesmoke;
+   text-decoration: none;
+}
+    #main-doc {
+   position: absolute;
+   left: 30%;
+   top: 0;
+}
+}
