@@ -1,0 +1,27 @@
+
+body{
+    margin:10px;
+    background: black;
+    color:white;
+}
+
+code{
+    background:gray;
+    color: white;
+  }
+  ul{
+    background:aqua;
+    color : black;
+  }
+  a:hover{
+    color: violet;
+    font-size:larger;
+  }
+  a:active{
+    color: Green;
+    font: size 15px;    
+  }
+  a :visited {
+    color: red;
+
+  }
